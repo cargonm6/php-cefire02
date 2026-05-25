@@ -10,6 +10,10 @@ datos.');
 }
 // DSN con charset utf8mb4
 $dsn = "mysql:host={$dbHost};dbname={$dbName};charset=utf8mb4";
+
+echo "Aplicación de prueba creada por Carlos González para el curso de CEFIRE\n";
+echo "Prueba de conexión contra la base de datos. Espere, por favor...\n\n";
+
 try {
     $options = [
         // Excepciones en errores
